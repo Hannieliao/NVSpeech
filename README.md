@@ -38,8 +38,8 @@ This enables expressive, human-like speech modeling at both recognition and synt
 
 ### 📅 Release Plan
 
-✅ Auto-labeled NVSpeech170k dataset (174k utterances)
-✅ ASR and TTS inference demo with controllable NVV generation
+* ✅ Auto-labeled NVSpeech170k dataset (174k utterances)
+* ✅ ASR and TTS inference demo with controllable NVV generation
 * [ ] Paralinguistic-aware ASR model inference code
 * [ ] Paralinguistic-aware ASR checkpoint (Mandarin and English)
 
