@@ -1,6 +1,6 @@
 # NVSpeech: An Integrated and Scalable Pipeline for Human-Like Speech Modeling with Paralinguistic Vocalizations
 
-**[📄 Paper](https://arxiv.org/abs/xxxx.xxxxx)** | **[🌐 Demos](https://nvspeech170k.github.io/)** | **[🤗 Dataset Access](https://huggingface.co/datasets/Hannie0813/NVSpeech170k)**
+**[📄 Paper](https://arxiv.org/abs/2508.04195)** | **[🌐 Demos](https://nvspeech170k.github.io/)** | **[🤗 Dataset Access](https://huggingface.co/datasets/Hannie0813/NVSpeech170k)**
 
 **NVSpeech** is the **first large-scale, open-source pipeline** that jointly recognizes and synthesizes **paralinguistic vocalizations** — such as *laughter*, *breathing*, *crying*, and expressive interjections like *"uhm"* and *"oh"* — which are often overlooked in conventional ASR and TTS systems.
 
@@ -38,8 +38,8 @@ This enables expressive, human-like speech modeling at both recognition and synt
 
 ### 📅 Release Plan
 
-* ✅ Auto-labeled NVSpeech170k dataset (174k utterances)
-* ✅ ASR and TTS inference demo with controllable NVV generation
+✅ Auto-labeled NVSpeech170k dataset (174k utterances)
+✅ ASR and TTS inference demo with controllable NVV generation
 * [ ] Paralinguistic-aware ASR model inference code
 * [ ] Paralinguistic-aware ASR checkpoint (Mandarin and English)
 
@@ -113,8 +113,8 @@ If you find NVSpeech helpful, please cite:
 ```bibtex
 @article{2025nvspeech,
   title     = {NVSpeech: An Integrated and Scalable Pipeline for Human-Like Speech Modeling with Paralinguistic Vocalizations},
-  author    = {Name and Collaborators},
-  journal   = {arXiv preprint arXiv:XXXX.XXXXX},
+  author    = {Huan Liao, Qinke Ni, Yuancheng Wang, Yiheng Lu, Haoyue Zhan, Pengyuan Xie, Qiang Zhang, Zhizheng Wu},
+  journal   = {arXiv preprint arXiv:2508.04195},
   year      = {2025}
 }
 ```
