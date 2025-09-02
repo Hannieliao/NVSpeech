@@ -1,5 +1,9 @@
 # NVSpeech: An Integrated and Scalable Pipeline for Human-Like Speech Modeling with Paralinguistic Vocalizations
 
+<!-- Demo -->
+<iframe width="800" height="450" src="https://youtu.be/lQpuwc8yRds" title="NVSpeech Demo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+---
+
 **[📄 Paper](https://arxiv.org/abs/2508.04195)** | **[🌐 Demos](https://nvspeech170k.github.io/)** | **[🤗 Dataset Access](https://huggingface.co/datasets/Hannie0813/NVSpeech170k)**
 
 **NVSpeech** is the **first large-scale, open-source pipeline** that jointly recognizes and synthesizes **paralinguistic vocalizations** — such as *laughter*, *breathing*, *crying*, and expressive interjections like *"uhm"* and *"oh"* — which are often overlooked in conventional ASR and TTS systems.
