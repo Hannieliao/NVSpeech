@@ -24,7 +24,7 @@ This enables expressive, human-like speech modeling at both recognition and synt
 
 ## 📊 Pipeline Overview
 
-![NVSpeech Pipeline](https://github.com/NVSpeech170k/nvspeech170k.github.io/blob/main/asr-pipeline.png)
+![Emilia-NV Pipeline](https://github.com/NVSpeech170k/nvspeech170k.github.io/blob/main/asr-pipeline.png)
 
 ---
 
@@ -128,7 +128,7 @@ Our codebase is built upon the awesome [PANNs](https://github.com/qiuqiangkong/a
 
 ## 📬 Contact
 
-For questions, please open an [issue](https://github.com/Hannieliao/NVSpeech/issues)
+For questions, please open an [issue](https://github.com/Hannieliao/Emilia-NV/issues)
 ---
 
 ## 🪪 License
