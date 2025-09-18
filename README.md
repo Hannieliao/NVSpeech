@@ -1,16 +1,15 @@
-# NVSpeech: An Integrated and Scalable Pipeline for Human-Like Speech Modeling with Paralinguistic Vocalizations
+# Emilia-NV: A Non-Verbal Speech Dataset with Word-Level Annotation for Human-Like Speech Modeling
 
-**[📄 Paper](https://arxiv.org/abs/2508.04195)** | **[🌐 Demos](https://nvspeech170k.github.io/)** | **[▶️ Demo Video](https://www.youtube.com/watch?v=lQpuwc8yRds)** | **[🤗 Dataset Access](https://huggingface.co/datasets/Hannie0813/NVSpeech170k)**
+**[📄 Paper](https://arxiv.org/abs/2508.04195)** | **[🌐 Demos](https://nvspeech170k.github.io/)** | **[▶️ Demo Video](https://www.youtube.com/watch?v=lQpuwc8yRds)** | **[🤗 Dataset Access](https://huggingface.co/datasets/amphion/Emilia-NV)**
 
-**NVSpeech** is the **first large-scale, open-source pipeline** that jointly recognizes and synthesizes **paralinguistic vocalizations** — such as *laughter*, *breathing*, *crying*, and expressive interjections like *"uhm"* and *"oh"* — which are often overlooked in conventional ASR and TTS systems.
+**Emilia-NV** introduces the first large-scale Mandarin corpus with fine-grained, word-level annotations of paralinguistic vocalizations—such as laughter, breathing, crying, and interjections like “uhm” and “oh”. Despite their importance for natural and expressive communication, these cues are rarely covered in existing resources, leaving them overlooked in ASR and TTS research. The corpus includes 48k human-annotated and 174k auto-labeled utterances (573hours).
 
-Unlike prior pipelines that focus purely on lexical content, **NVSpeech** models *how* people speak, not just *what* they say. It unifies:
-- 🗃️ Dataset construction with rich annotations
-- 🧠 ASR with inline decoding of non-verbal cues
-- 🔊 TTS with fine-grained, position-aware vocalization control
+Building on this foundation, **Emilia-NV** provides:
+- 🗃️ A scalable annotation pipeline that enables large-scale automatic labeling of paralinguistic vocalizations.
+- 🧠 Paralinguistic-aware ASR (NVASR) that jointly transcribes lexical content and non-verbal tokens.
+- 🔊 Paralinguistic controllable TTS (CV2@Emilia-NV) that supports explicit, position-aware generation of paralinguistic vocalizations.
 
 This enables expressive, human-like speech modeling at both recognition and synthesis levels.
-
 
 ## ✨ Highlights
 
@@ -31,14 +30,14 @@ This enables expressive, human-like speech modeling at both recognition and synt
 
 ## 🗞 News
 
-- **[2025-08-06]** 🎉 Initial release of NVSpeech:
-  - 📄 [arXiv preprint](https://arxiv.org/abs/XXXX.XXXXX)
+- **[2025-08-06]** 🎉 Initial release of Emilia-NV:
+  - 📄 [arXiv preprint](https://arxiv.org/abs/2508.04195)
   - 🎧 [Demo page](https://nvspeech170k.github.io/)
-  - 🤗 [Dataset](https://huggingface.co/datasets/Hannie0813/NVSpeech170k)
+  - 🤗 [Dataset](https://huggingface.co/datasets/amphion/Emilia-NV)
 
 ### 📅 Release Plan
 
-* ✅ Auto-labeled NVSpeech170k dataset (174k utterances)
+* ✅ Auto-labeled Emilia-NV dataset (174k utterances)
 * ✅ ASR and TTS inference demo with controllable NVV generation
 * [ ] Paralinguistic-aware ASR model inference code
 * [ ] Paralinguistic-aware ASR checkpoint (Mandarin and English)
@@ -47,7 +46,7 @@ This enables expressive, human-like speech modeling at both recognition and synt
 
 ## 📦 Dataset
 
-### 📌 NVSpeech170k
+### 📌 Emilia-NV
 
 * 174,179 auto-labeled utterances
 * 573 total hours
@@ -108,7 +107,7 @@ Output Audio: [Synthesized speech with aligned non-verbal expressions]
 
 ## 📜 Citation
 
-If you find NVSpeech helpful, please cite:
+If you find Emilia-NV helpful, please cite:
 
 ```bibtex
 @article{2025nvspeech,
